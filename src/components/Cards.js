@@ -30,7 +30,7 @@ function Cards() {
   return (
     <div className="flex items-center justify-between flex-wrap -m-4">
     {products.map(element=>(
-        <div id={element.id}  className=" mb-6 w-72 bg-white shadow-md rounded-xl  hover:shadow-xl">
+        <div key={element.id}  className=" mb-6 w-72 bg-white shadow-md rounded-xl  hover:shadow-xl">
         <img src={element.image} alt="Product" className="h-60 w-72 object-scale-down rounded-t-xl duration-500 hover:scale-105" />
         <div className="px-4 py-3 w-72">
           <span className="text-gray-400 mr-3 uppercase text-xs">Brand</span>
