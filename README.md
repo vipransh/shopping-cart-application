@@ -11,6 +11,8 @@ https://fakestoreapi.com/products
 
 # Project Images
 
+
+[Live-Link](https://shopdealz.netlify.app/)
 ![image](screenshots/herosection.png)
 ![image](screenshots/products.png)
 ![image](screenshots/cart.png)
